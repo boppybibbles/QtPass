@@ -630,8 +630,13 @@ void ConfigDialog::wizard() {
             QMessageBox::Yes | QMessageBox::No) == QMessageBox::Yes) {
       QDir().mkdir(passStore);
 #ifdef Q_OS_WIN
+#ifdef UNICODE
       SetFileAttributes(passStore.toStdWString().c_str(),
                         FILE_ATTRIBUTE_HIDDEN);
+#else
+      SetFileAttributes(passStore.toStdString().c_str(),
+                        FILE_ATTRIBUTE_HIDDEN);
+#endif
 #endif
       if (ui->checkBoxUseGit->isChecked())
         emit mainWindow->passGitInitNeeded();
