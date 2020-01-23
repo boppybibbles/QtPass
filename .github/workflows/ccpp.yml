@@ -9,11 +9,11 @@ jobs:
          os: [ubuntu-latest, macos-latest, windows-latest]
          include: 
           - os: ubuntu-latest
-            MAKE: make
+            make: make
           - os: macos-latest
-            MAKE: make
+            make: make
           - os: windows-latest
-            MAKE: nmake
+            make: nmake
     steps:
     - uses: actions/checkout@v1
     - uses: ilammy/msvc-dev-cmd@v1
@@ -22,6 +22,6 @@ jobs:
     - name: qmake
       run: qmake
     - name: make
-      run: ${{matrix.TARGET}}
+      run: ${{matrix.make}}
     - name: make check
-      run: ${{matrix.TARGET}} check TESTARGS="--platform offscreen"
+      run: ${{matrix.make}} check TESTARGS="--platform offscreen"
