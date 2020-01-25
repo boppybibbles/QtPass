@@ -38,6 +38,9 @@ jobs:
       uses: jurplel/install-qt-action@v2
     - name: Build
       uses: lukka/run-cmake@v0
+      env:
+        CC: cl
+        CXX: cl
     - name: Test
       uses: lukka/run-cmake@v0
       with:
