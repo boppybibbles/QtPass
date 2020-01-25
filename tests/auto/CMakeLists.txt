@@ -1,2 +1,2 @@
 add_subdirectory(ui)
-#add_subdirectory(util)
+add_subdirectory(util)
