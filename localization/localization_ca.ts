@@ -111,7 +111,7 @@
     <message>
         <location filename="../src/configdialog.ui" line="411"/>
         <source>Include special symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>Inclou símbols especials</translation>
     </message>
     <message>
         <location filename="../src/configdialog.ui" line="915"/>
@@ -345,32 +345,32 @@ email</translation>
         <translation>No s&apos;ha seleccionat cap perfil per suprimir</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="586"/>
+        <location filename="../src/configdialog.cpp" line="584"/>
         <source>GnuPG not found</source>
         <translation>No s&apos;ha trobat GnuPG</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="600"/>
+        <location filename="../src/configdialog.cpp" line="598"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;gpg&lt;/strong&gt; using your favorite package manager&lt;br&gt;or &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;download&lt;/a&gt; it from GnuPG.org</source>
         <translation>Instal·leu GnuPG al vostre sistema.&lt;br&gt;Instal·leu &lt;strong&gt;gpg&lt;/strong&gt; mitjançant el vostre gestor de paquets preferit&lt;br&gt;o &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;baixeu-ho&lt;/a&gt; de GnuPG.org</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="627"/>
+        <location filename="../src/configdialog.cpp" line="625"/>
         <source>Create password-store?</source>
         <translation>Voleu crear un magatzem de claus?</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="628"/>
+        <location filename="../src/configdialog.cpp" line="626"/>
         <source>Would you like to create a password-store at %1?</source>
         <translation>Voleu crear un magatzem de claus a %1?</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="647"/>
+        <location filename="../src/configdialog.cpp" line="645"/>
         <source>Password store not initialised</source>
         <translation>El magatzem de claus no està inicialitzat</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="648"/>
+        <location filename="../src/configdialog.cpp" line="646"/>
         <source>The folder %1 doesn&apos;t seem to be a password store or is not yet initialised.</source>
         <translation>La carpeta %1 no sembla ser un magatzem de claus o encara no ha estat inicialitzat.</translation>
     </message>
@@ -400,12 +400,12 @@ email</translation>
         <translation>Cal instal·lar qrencode</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="589"/>
+        <location filename="../src/configdialog.cpp" line="587"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;Ubuntu&lt;/strong&gt; from the Microsoft Store to get it.&lt;br&gt;If you already did so, make sure you started it once and&lt;br&gt;click &quot;Autodetect&quot; in the next dialog.</source>
         <translation>Instal·leu GnuPG al vostre sistema. &lt;br&gt; Instal·leu &lt;strong&gt; Ubuntu &lt;/strong&gt; a la botiga Microsoft per aconseguir-ho. &lt;br&gt; Si ja ho heu fet, assegureu-vos que el vau iniciar una vegada i feu clic a &quot;Detecció automàtica&quot; al diàleg següent.</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="594"/>
+        <location filename="../src/configdialog.cpp" line="592"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;Ubuntu&lt;/strong&gt; from the Microsoft Store&lt;br&gt;or &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;download&lt;/a&gt; it from GnuPG.org</source>
         <translation>Instal·leu GnuPG al vostre sistema. Instal·leu &lt;strong&gt; Ubuntu &lt;/strong&gt; des de la botiga Microsoft a &lt;a href = &quot;https://www.gnupg.org/download/#sec-1-2 &quot;&gt; Baixeu-lo &lt;/a&gt; de GnuPG.org</translation>
     </message>
@@ -1090,83 +1090,83 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QtPass</name>
     <message>
-        <location filename="../src/qtpass.cpp" line="139"/>
+        <location filename="../src/qtpass.cpp" line="141"/>
         <source>Generating GPG key pair</source>
         <translation>Generació del parell de claus GPG</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="191"/>
+        <location filename="../src/qtpass.cpp" line="193"/>
         <source>Failed to connect WebDAV:
 </source>
         <translation>Ha fallat la connexió a WebDAV:
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="204"/>
+        <location filename="../src/qtpass.cpp" line="206"/>
         <source>QtPass WebDAV password</source>
         <translation>Contrasenya de WebDAV de QtPass</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="205"/>
+        <location filename="../src/qtpass.cpp" line="207"/>
         <source>Enter password to connect to WebDAV:</source>
         <translation>Introduïu la contrasenya per connectar a WebDAV:</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="221"/>
+        <location filename="../src/qtpass.cpp" line="223"/>
         <source>fusedav exited unexpectedly
 </source>
         <translation>fusedav ha sortit inesperadament
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="224"/>
+        <location filename="../src/qtpass.cpp" line="226"/>
         <source>Failed to start fusedav to connect WebDAV:
 </source>
         <translation>Ha fallat l&apos;inici de fusedav per connectar a WebDAV:
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="237"/>
+        <location filename="../src/qtpass.cpp" line="239"/>
         <source>QProcess::FailedToStart</source>
         <translation>QProcess::FailedToStart</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="240"/>
+        <location filename="../src/qtpass.cpp" line="242"/>
         <source>QProcess::Crashed</source>
         <translation>QProcess::Crashed</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="243"/>
+        <location filename="../src/qtpass.cpp" line="245"/>
         <source>QProcess::Timedout</source>
         <translation>QProcess::Timedout</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="246"/>
+        <location filename="../src/qtpass.cpp" line="248"/>
         <source>QProcess::ReadError</source>
         <translation>QProcess::ReadError</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="249"/>
+        <location filename="../src/qtpass.cpp" line="251"/>
         <source>QProcess::WriteError</source>
         <translation>QProcess::WriteError</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="252"/>
+        <location filename="../src/qtpass.cpp" line="254"/>
         <source>QProcess::UnknownError</source>
         <translation>QProcess::UnknownError</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="379"/>
+        <location filename="../src/qtpass.cpp" line="381"/>
         <source>Clipboard cleared</source>
         <translation>S&apos;ha netejat el porta-retalls</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="381"/>
+        <location filename="../src/qtpass.cpp" line="383"/>
         <source>Clipboard not cleared</source>
         <translation>No s&apos;ha netejat el porta-retalls</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="400"/>
+        <location filename="../src/qtpass.cpp" line="402"/>
         <source>Copied to clipboard</source>
         <translation>S&apos;ha copiat al porta-retalls</translation>
     </message>
@@ -1230,12 +1230,15 @@ p, li { white-space: pre-wrap; }
 Note: Existing files will not be modified, and retain the old permissions until you edit them.
 Blue entries have a secret key available, select one of these to be able to decrypt.
 Red entries are not valid, you will not be able to encrypt to these.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Seleccioneu quins usuaris han de ser capaços de desxifrar les contrasenyes emmagatzemades en aquesta carpeta.
+Nota: els fitxers existents no es modificaran i conserveu els permisos antics fins que no els editeu.
+Les entrades blaves tenen una clau secreta disponible, seleccioneu-ne una per poder desxifrar-les.
+Les entrades en vermell no són vàlides, no podreu xifrar-les.</translation>
     </message>
     <message>
         <location filename="../src/usersdialog.ui" line="65"/>
         <source>Search for users</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca d’usuaris</translation>
     </message>
     <message>
         <source>Select which users should be able to decrypt passwords stored in this folder.

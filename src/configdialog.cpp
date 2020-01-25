@@ -60,7 +60,7 @@ ConfigDialog::ConfigDialog(MainWindow *parent)
   ui->checkBoxAutoPush->setChecked(QtPassSettings::isAutoPush());
   ui->checkBoxAlwaysOnTop->setChecked(QtPassSettings::isAlwaysOnTop());
 
-#if defined(Q_OS_WIN) || defined(__APPLE__)
+#if defined(Q_OS_WIN)
   ui->checkBoxUseOtp->hide();
   ui->checkBoxUseQrencode->hide();
   ui->label_10->hide();
@@ -551,20 +551,18 @@ void ConfigDialog::criticalMessage(const QString &title, const QString &text) {
 bool ConfigDialog::isQrencodeAvailable() {
 #ifdef Q_OS_WIN
   return false;
-#elif defined(__APPLE__)
-  return false;
 #else
   QProcess which;
   which.start("which", QStringList() << "qrencode");
   which.waitForFinished();
+  QtPassSettings::setQrencodeExecutable(
+      which.readAllStandardOutput().trimmed());
   return which.exitCode() == 0;
 #endif
 }
 
 bool ConfigDialog::isPassOtpAvailable() {
 #ifdef Q_OS_WIN
-  return false;
-#elif defined(__APPLE__)
   return false;
 #else
   return true;
