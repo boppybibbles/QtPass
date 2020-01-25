@@ -93,7 +93,7 @@
     <message>
         <location filename="../src/configdialog.ui" line="411"/>
         <source>Include special symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить специальные символы</translation>
     </message>
     <message>
         <location filename="../src/configdialog.ui" line="418"/>
@@ -273,32 +273,32 @@ email</translation>
         <translation>Скрывать содержимое</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="586"/>
+        <location filename="../src/configdialog.cpp" line="584"/>
         <source>GnuPG not found</source>
         <translation>GnuPG не найден</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="600"/>
+        <location filename="../src/configdialog.cpp" line="598"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;gpg&lt;/strong&gt; using your favorite package manager&lt;br&gt;or &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;download&lt;/a&gt; it from GnuPG.org</source>
         <translation>Пожалуйста, установите GnuPG. &lt;br&gt;Установите &lt;strong&gt;gpg&lt;/strong&gt; используя Ваш любимый менеджер пакетов&lt;br&gt; или &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;скачайте&lt;/a&gt; с сайта GnuPG.org</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="627"/>
+        <location filename="../src/configdialog.cpp" line="625"/>
         <source>Create password-store?</source>
         <translation>Создать хранилище паролей?</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="628"/>
+        <location filename="../src/configdialog.cpp" line="626"/>
         <source>Would you like to create a password-store at %1?</source>
         <translation>Хотите создать хранилище паролей в %1?</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="647"/>
+        <location filename="../src/configdialog.cpp" line="645"/>
         <source>Password store not initialised</source>
         <translation>Хранилище паролей не инициализировано</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="648"/>
+        <location filename="../src/configdialog.cpp" line="646"/>
         <source>The folder %1 doesn&apos;t seem to be a password store or is not yet initialised.</source>
         <translation>Папка %1 не похожа на хранилище паролей либо ещё не инициализирована.</translation>
     </message>
@@ -393,12 +393,12 @@ email</translation>
         <translation>qrencode должен быть установлен</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="589"/>
+        <location filename="../src/configdialog.cpp" line="587"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;Ubuntu&lt;/strong&gt; from the Microsoft Store to get it.&lt;br&gt;If you already did so, make sure you started it once and&lt;br&gt;click &quot;Autodetect&quot; in the next dialog.</source>
         <translation>Пожалуйста, установите GnuPG в вашей системе. &lt;br&gt;Установить &lt;strong&gt;Ubuntu&lt;/strong&gt; из Microsoft Store, чтобы получить его. &lt;br&gt;Если вы уже сделали это, убедитесь, что вы начали его один раз и&lt;br&gt;нажмите &quot;Автоопределение&quot; в следующем диалоге.</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="594"/>
+        <location filename="../src/configdialog.cpp" line="592"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;Ubuntu&lt;/strong&gt; from the Microsoft Store&lt;br&gt;or &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;download&lt;/a&gt; it from GnuPG.org</source>
         <translation>Пожалуйста, установите GnuPG на вашу систему.&lt;br&gt;Установите &lt;strong&gt;Ubuntu&lt;/strong&gt; из Microsoft Store&lt;br&gt; или &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;Скачать&lt;/a&gt; его с GnuPG.org</translation>
     </message>
@@ -461,7 +461,7 @@ email</translation>
         <source>login
 URL
 e-mail</source>
-        <translation type="unfinished">login
+        <translation>login
 URL
 e-mail</translation>
     </message>
@@ -1037,83 +1037,83 @@ Expire-Date: 0
 <context>
     <name>QtPass</name>
     <message>
-        <location filename="../src/qtpass.cpp" line="139"/>
+        <location filename="../src/qtpass.cpp" line="141"/>
         <source>Generating GPG key pair</source>
         <translation>Генерирую ключевую пару GPG</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="191"/>
+        <location filename="../src/qtpass.cpp" line="193"/>
         <source>Failed to connect WebDAV:
 </source>
         <translation>Не удалось подключить WebDAV:
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="204"/>
+        <location filename="../src/qtpass.cpp" line="206"/>
         <source>QtPass WebDAV password</source>
         <translation>Пароль QtPass для WebDAV</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="205"/>
+        <location filename="../src/qtpass.cpp" line="207"/>
         <source>Enter password to connect to WebDAV:</source>
         <translation>Введите пароль для подключения к WebDAV:</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="221"/>
+        <location filename="../src/qtpass.cpp" line="223"/>
         <source>fusedav exited unexpectedly
 </source>
         <translation>fusedav непредвиденно завершился
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="224"/>
+        <location filename="../src/qtpass.cpp" line="226"/>
         <source>Failed to start fusedav to connect WebDAV:
 </source>
         <translation>Не удалось запустить fusedav для подключения к WebDAV:
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="237"/>
+        <location filename="../src/qtpass.cpp" line="239"/>
         <source>QProcess::FailedToStart</source>
         <translation>QProsess::Не удалось запустить</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="240"/>
+        <location filename="../src/qtpass.cpp" line="242"/>
         <source>QProcess::Crashed</source>
         <translation>QProsess::Аварийное завершение</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="243"/>
+        <location filename="../src/qtpass.cpp" line="245"/>
         <source>QProcess::Timedout</source>
         <translation>QProsess::Превышено время ожидания</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="246"/>
+        <location filename="../src/qtpass.cpp" line="248"/>
         <source>QProcess::ReadError</source>
         <translation>QProsess::Ошибка чтения</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="249"/>
+        <location filename="../src/qtpass.cpp" line="251"/>
         <source>QProcess::WriteError</source>
         <translation>QProsess::Ошибка записи</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="252"/>
+        <location filename="../src/qtpass.cpp" line="254"/>
         <source>QProcess::UnknownError</source>
         <translation>QProsess::Неизвестная ошибка</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="379"/>
+        <location filename="../src/qtpass.cpp" line="381"/>
         <source>Clipboard cleared</source>
         <translation>Буфер обмена очищен</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="381"/>
+        <location filename="../src/qtpass.cpp" line="383"/>
         <source>Clipboard not cleared</source>
         <translation>Буфер обмена не очищен</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="400"/>
+        <location filename="../src/qtpass.cpp" line="402"/>
         <source>Copied to clipboard</source>
         <translation>скопировать в буфер обмена</translation>
     </message>
@@ -1177,12 +1177,15 @@ Expire-Date: 0
 Note: Existing files will not be modified, and retain the old permissions until you edit them.
 Blue entries have a secret key available, select one of these to be able to decrypt.
 Red entries are not valid, you will not be able to encrypt to these.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Выберите, какие пользователи должны иметь возможность расшифровывать пароли, хранящиеся в этой папке.
+Примечание. Существующие файлы не будут изменены и сохранят старые разрешения до тех пор, пока вы их не отредактируете.
+Синие записи имеют секретный ключ, выберите один из них, чтобы иметь возможность расшифровать.
+Красные записи недействительны, вы не сможете зашифровать их.</translation>
     </message>
     <message>
         <location filename="../src/usersdialog.ui" line="65"/>
         <source>Search for users</source>
-        <translation type="unfinished"></translation>
+        <translation>Поиск пользователей</translation>
     </message>
     <message>
         <source>Select which users should be able to decrypt passwords stored in this folder.

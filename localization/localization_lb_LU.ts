@@ -314,42 +314,42 @@
         <translation>Kee Profil ausgewielt fir ze läschen</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="586"/>
+        <location filename="../src/configdialog.cpp" line="584"/>
         <source>GnuPG not found</source>
         <translation>GnuPG net fonnt</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="589"/>
+        <location filename="../src/configdialog.cpp" line="587"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;Ubuntu&lt;/strong&gt; from the Microsoft Store to get it.&lt;br&gt;If you already did so, make sure you started it once and&lt;br&gt;click &quot;Autodetect&quot; in the next dialog.</source>
         <translation>Installéiert GnuPG op Ärem System. &lt;br&gt; Install &lt;strong&gt; Ubuntu &lt;/strong&gt; vum Microsoft Store fir et ze kréien. &lt;br&gt; Wann Dir dëst scho gemaach hutt, gitt sécher datt Dir et eemol ugefangen hutt a klickt op &quot;Autodetekt&quot; an den nächsten Dialog.</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="594"/>
+        <location filename="../src/configdialog.cpp" line="592"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;Ubuntu&lt;/strong&gt; from the Microsoft Store&lt;br&gt;or &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;download&lt;/a&gt; it from GnuPG.org</source>
         <translation>Installéiert GnuPG op Ärem System. &lt;br&gt; Install &lt;strong&gt; Ubuntu &lt;/strong&gt; vum Microsoft Store &lt;br&gt; oder &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt; download &lt;/a&gt; et vu GnuPG.org</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="600"/>
+        <location filename="../src/configdialog.cpp" line="598"/>
         <source>Please install GnuPG on your system.&lt;br&gt;Install &lt;strong&gt;gpg&lt;/strong&gt; using your favorite package manager&lt;br&gt;or &lt;a href=&quot;https://www.gnupg.org/download/#sec-1-2&quot;&gt;download&lt;/a&gt; it from GnuPG.org</source>
         <translation>Installéiert GnuPG op Ärem System. &lt;br&gt; Installéiert &lt;strong&gt; gpg &lt;/strong&gt; mat Ärem Liiblingspakmanager &lt;br&gt; oder &lt;a href=&quot;https://www.gnupg.org/download/#sec-1- 2&quot;&gt; download &lt;/a&gt; et vu GnuPG.org</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="627"/>
+        <location filename="../src/configdialog.cpp" line="625"/>
         <source>Create password-store?</source>
         <translation>Passwuertgeschäft erstellen?</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="628"/>
+        <location filename="../src/configdialog.cpp" line="626"/>
         <source>Would you like to create a password-store at %1?</source>
         <translation>Wëllt Dir e Passwuertgeschäft bei %1 erstellen?</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="647"/>
+        <location filename="../src/configdialog.cpp" line="645"/>
         <source>Password store not initialised</source>
         <translation>Passwuertgeschäft net initialiséiert</translation>
     </message>
     <message>
-        <location filename="../src/configdialog.cpp" line="648"/>
+        <location filename="../src/configdialog.cpp" line="646"/>
         <source>The folder %1 doesn&apos;t seem to be a password store or is not yet initialised.</source>
         <translation>Den Dossier %1 schéngt net e Passwuertgeschäft ze sinn oder nach net initialiséiert.</translation>
     </message>
@@ -880,83 +880,83 @@ Expire-Date: 0
 <context>
     <name>QtPass</name>
     <message>
-        <location filename="../src/qtpass.cpp" line="139"/>
+        <location filename="../src/qtpass.cpp" line="141"/>
         <source>Generating GPG key pair</source>
         <translation>Generéiere GPG Schlësselpaar</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="191"/>
+        <location filename="../src/qtpass.cpp" line="193"/>
         <source>Failed to connect WebDAV:
 </source>
         <translation>De Benotzer konnektéiert WebDAV net:
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="204"/>
+        <location filename="../src/qtpass.cpp" line="206"/>
         <source>QtPass WebDAV password</source>
         <translation>QtPass WebDAV Passwuert</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="205"/>
+        <location filename="../src/qtpass.cpp" line="207"/>
         <source>Enter password to connect to WebDAV:</source>
         <translation>Gitt d&apos;Passwuert fir un de WebDAV ze connectéieren</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="221"/>
+        <location filename="../src/qtpass.cpp" line="223"/>
         <source>fusedav exited unexpectedly
 </source>
         <translation>fusedav existeiert onerwaart
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="224"/>
+        <location filename="../src/qtpass.cpp" line="226"/>
         <source>Failed to start fusedav to connect WebDAV:
 </source>
         <translation>De Fusedav konnt net konnektéieren fir WebDAV ze starten:
 </translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="237"/>
+        <location filename="../src/qtpass.cpp" line="239"/>
         <source>QProcess::FailedToStart</source>
         <translation type="unfinished">QProcess::FailedToStart</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="240"/>
+        <location filename="../src/qtpass.cpp" line="242"/>
         <source>QProcess::Crashed</source>
         <translation type="unfinished">QProcess::Crashed</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="243"/>
+        <location filename="../src/qtpass.cpp" line="245"/>
         <source>QProcess::Timedout</source>
         <translation type="unfinished">QProcess::Timedout</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="246"/>
+        <location filename="../src/qtpass.cpp" line="248"/>
         <source>QProcess::ReadError</source>
         <translation type="unfinished">QProcess::ReadError</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="249"/>
+        <location filename="../src/qtpass.cpp" line="251"/>
         <source>QProcess::WriteError</source>
         <translation type="unfinished">QProcess::WriteError</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="252"/>
+        <location filename="../src/qtpass.cpp" line="254"/>
         <source>QProcess::UnknownError</source>
         <translation type="unfinished">QProcess::UnknownError</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="379"/>
+        <location filename="../src/qtpass.cpp" line="381"/>
         <source>Clipboard cleared</source>
         <translation>Clipboard geläscht</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="381"/>
+        <location filename="../src/qtpass.cpp" line="383"/>
         <source>Clipboard not cleared</source>
         <translation>Clipboard net geläscht</translation>
     </message>
     <message>
-        <location filename="../src/qtpass.cpp" line="400"/>
+        <location filename="../src/qtpass.cpp" line="402"/>
         <source>Copied to clipboard</source>
         <translation>Kopéiert op Clipboard</translation>
     </message>
