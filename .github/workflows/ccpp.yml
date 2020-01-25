@@ -1,7 +1,8 @@
 name: C/C++ CI
 on: [push, pull_request]
 jobs:
-  qmake:
+  job-qmake:
+    name: QMake
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -15,32 +16,38 @@ jobs:
           - os: windows-latest
             make: nmake
     steps:
-    - uses: actions/checkout@v2
-    - uses: ilammy/msvc-dev-cmd@v1
+    - name: Checkout
+      uses: actions/checkout@v2
     - name: Install Qt
       uses: jurplel/install-qt-action@v2
-    - name: qmake
+    - name: Setup environment
+      uses: ilammy/msvc-dev-cmd@v1
+    - name: Configure
       run: qmake
-    - name: make
+    - name: Make
       run: ${{matrix.make}}
-    - name: make check
+    - name: Test
       run: ${{matrix.make}} check TESTARGS="--platform offscreen"
-  cmake:
+  job-cmake:
+    name: CMake
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
          os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
-    - if: runner.os == 'Windows'
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v2
+    - name: Setup environment
+      uses: ilammy/msvc-dev-cmd@v1
+    - name: Setup environment... 
+      if: runner.os == 'Windows'
       env:
         CC: cl
         CXX: cl
       run: echo noop
-    - uses: actions/checkout@v2
-    - uses: ilammy/msvc-dev-cmd@v1
-    - name: Install Qt
-      uses: jurplel/install-qt-action@v2
     - name: Build
       uses: lukka/run-cmake@v0
     - name: Test
@@ -51,4 +58,3 @@ jobs:
         CTEST_OUTPUT_ON_FAILURE: 1
         QT_QPA_PLATFORM: offscreen
         QT_PLUGIN_PATH: ${{env.Qt5_Dir}}/plugins
-      
