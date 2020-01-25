@@ -38,13 +38,15 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Install Qt
-      uses: jurplel/install-qt-action@v2
+#     - name: Install Qt
+#       uses: jurplel/install-qt-action@v2
     - name: Setup environment
       uses: ilammy/msvc-dev-cmd@v1
     - name: Setup more environment 
       if: runner.os == 'Windows'
-      run: echo "::set-env name=CC::cl.exe name=CXX::cl.exe"
+      run: |
+        echo "::set-env name=CC::cl.exe"
+        echo "::set-env name=CXX::cl.exe"
     - name: Build
       uses: lukka/run-cmake@v0
     - name: Test
