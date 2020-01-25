@@ -44,7 +44,7 @@ jobs:
       uses: ilammy/msvc-dev-cmd@v1
     - name: Setup more environment 
       if: runner.os == 'Windows'
-      run: echo ::set-env cc=cl cxx=cl
+      run: echo ::set-env CC=cl CXX=cl
     - name: Build
       uses: lukka/run-cmake@v0
     - name: Test
