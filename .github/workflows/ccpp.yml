@@ -42,12 +42,9 @@ jobs:
       uses: jurplel/install-qt-action@v2
     - name: Setup environment
       uses: ilammy/msvc-dev-cmd@v1
-    - name: Setup environment... 
+    - name: Setup more environment 
       if: runner.os == 'Windows'
-      env:
-        CC: cl
-        CXX: cl
-      run: echo noop
+      run: echo ::set-env cc=cl cxx=cl
     - name: Build
       uses: lukka/run-cmake@v0
     - name: Test
