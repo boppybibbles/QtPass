@@ -16,7 +16,7 @@ jobs:
             make: nmake
     steps:
     - uses: actions/checkout@v2
-    #- uses: ilammy/msvc-dev-cmd@v1
+    - uses: ilammy/msvc-dev-cmd@v1
     - name: Install Qt
       uses: jurplel/install-qt-action@v2
     - name: qmake
@@ -33,9 +33,9 @@ jobs:
          os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
     - uses: actions/checkout@v2
+    - uses: ilammy/msvc-dev-cmd@v1
     - name: Install Qt
       uses: jurplel/install-qt-action@v2
-    - uses: ilammy/msvc-dev-cmd@v1
     - name: Build
       uses: lukka/run-cmake@v0
     - name: Test
