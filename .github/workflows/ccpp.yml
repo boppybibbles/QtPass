@@ -35,7 +35,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install Qt
       uses: jurplel/install-qt-action@v2
+    - run: WHERE cl.exe
     - uses: ilammy/msvc-dev-cmd@v1
+    - run: WHERE cl.exe
     - name: Build
       uses: lukka/run-cmake@v0
     - name: Test
