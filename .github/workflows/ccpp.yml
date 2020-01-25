@@ -33,7 +33,9 @@ jobs:
          os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
     - uses: actions/checkout@v2
+    - run: cl --version
     - uses: ilammy/msvc-dev-cmd@v1
+    - run: cl --version
     - name: Install Qt
       uses: jurplel/install-qt-action@v2
     - name: Build
