@@ -32,15 +32,16 @@ jobs:
       matrix:
          os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
+    - if: runner.os == 'Windows'
+      env:
+        CC: cl
+        CXX: cl
     - uses: actions/checkout@v2
     - uses: ilammy/msvc-dev-cmd@v1
     - name: Install Qt
       uses: jurplel/install-qt-action@v2
     - name: Build
       uses: lukka/run-cmake@v0
-      env:
-        CC: cl
-        CXX: cl
     - name: Test
       uses: lukka/run-cmake@v0
       with:
